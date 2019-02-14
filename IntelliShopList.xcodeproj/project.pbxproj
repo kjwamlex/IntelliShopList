@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		880854561F36978C00AE3E1F /* mainHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880854551F36978C00AE3E1F /* mainHome.swift */; };
+		880854581F369E0000AE3E1F /* IMAC.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 880854571F369DE500AE3E1F /* IMAC.jpeg */; };
+		880F7F1B1F3FDDD700CA5919 /* HomeSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 880F7F191F3FDDD200CA5919 /* HomeSelected.png */; };
+		880F7F1C1F3FDDDA00CA5919 /* ListSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 880F7F1A1F3FDDD300CA5919 /* ListSelected.png */; };
+		880F7F1E1F3FE3FB00CA5919 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880F7F1D1F3FE3FB00CA5919 /* SearchViewController.swift */; };
+		8810EA4F1F488252001E51B6 /* HomeNew.png in Resources */ = {isa = PBXBuildFile; fileRef = 8810EA4C1F48824D001E51B6 /* HomeNew.png */; };
+		8810EA501F488255001E51B6 /* HomeNewSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 8810EA4E1F48824D001E51B6 /* HomeNewSelected.png */; };
+		8810EA511F488258001E51B6 /* YourListNew.png in Resources */ = {isa = PBXBuildFile; fileRef = 8810EA4D1F48824D001E51B6 /* YourListNew.png */; };
+		8810EA521F48825B001E51B6 /* YourListNewSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 8810EA4B1F48824D001E51B6 /* YourListNewSelected.png */; };
+		8815034A1F365CB700029EFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881503491F365CB700029EFD /* AppDelegate.swift */; };
+		8815034C1F365CB700029EFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8815034B1F365CB700029EFD /* ViewController.swift */; };
+		8815034F1F365CB700029EFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8815034D1F365CB700029EFD /* Main.storyboard */; };
+		881503521F365CB700029EFD /* VisionShop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 881503501F365CB700029EFD /* VisionShop.xcdatamodeld */; };
+		881503541F365CB700029EFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 881503531F365CB700029EFD /* Assets.xcassets */; };
+		881503571F365CB700029EFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 881503551F365CB700029EFD /* LaunchScreen.storyboard */; };
+		881503621F365CB700029EFD /* VisionShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881503611F365CB700029EFD /* VisionShopTests.swift */; };
+		8815036D1F365CB700029EFD /* VisionShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8815036C1F365CB700029EFD /* VisionShopUITests.swift */; };
+		8815037B1F365CF400029EFD /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8815037A1F365CD400029EFD /* Resnet50.mlmodel */; };
+		8831125F1F4D014F0035E73A /* DetailsViewControllerForSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8831125E1F4D014F0035E73A /* DetailsViewControllerForSearchViewController.swift */; };
+		8832BA961F6F15A1001D7920 /* Camera@3xiPhoneX copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 8832BA951F6F1599001D7920 /* Camera@3xiPhoneX copy.png */; };
+		886CB3A71F41F44A00CA827F /* HomeScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 886CB3A61F41F3EF00CA827F /* HomeScreen.png */; };
+		886CB3A91F41F60F00CA827F /* YourListScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 886CB3A81F41F60A00CA827F /* YourListScreen.png */; };
+		8878CFFD1F3C88F60036CB58 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8878CFFC1F3C88F60036CB58 /* DetailsViewController.swift */; };
+		887F7F141F50EED100826C47 /* detailHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887F7F131F50EED100826C47 /* detailHomeViewController.swift */; };
+		887F7F161F5101BF00826C47 /* cameraLaunchView2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 887F7F151F51010700826C47 /* cameraLaunchView2x.png */; };
+		8898CC031F4FABAE00315306 /* IntelliShopBetterIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8898CC021F4FABA900315306 /* IntelliShopBetterIcon.png */; };
+		88A002131F42672E000C8D8E /* CameraLaunchScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 88A002121F42665A000C8D8E /* CameraLaunchScreen.png */; };
+		88B23BF81F48AAA100452A20 /* homeiPhone3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88B23BF51F48AA9D00452A20 /* homeiPhone3x.png */; };
+		88B23BF91F48AAA400452A20 /* HomeScreeniPhone2x4inch.png in Resources */ = {isa = PBXBuildFile; fileRef = 88B23BF61F48AA9E00452A20 /* HomeScreeniPhone2x4inch.png */; };
+		88B23BFA1F48AAA700452A20 /* YourListScreeniPhone2x4inch.png in Resources */ = {isa = PBXBuildFile; fileRef = 88B23BF71F48AA9E00452A20 /* YourListScreeniPhone2x4inch.png */; };
+		88B23BFB1F48AAAA00452A20 /* YourListScreeniPhone3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88B23BF41F48AA9D00452A20 /* YourListScreeniPhone3x.png */; };
+		88CA521C1F52444600FF68E5 /* SettingsIconBarButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 88CA521B1F52443C00FF68E5 /* SettingsIconBarButton.png */; };
+		88CBCF961F3BCB37001A96BE /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CBCF951F3BCB37001A96BE /* ListTableViewController.swift */; };
+		88CBCF981F3BD6C5001A96BE /* List.png in Resources */ = {isa = PBXBuildFile; fileRef = 88CBCF971F3BD6C2001A96BE /* List.png */; };
+		88D49C331F3A866200448FD7 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D49C321F3A866200448FD7 /* AddViewController.swift */; };
+		88D49C351F3A940F00448FD7 /* Add.png in Resources */ = {isa = PBXBuildFile; fileRef = 88D49C341F3A93D000448FD7 /* Add.png */; };
+		88E571B71F3D2C4500D6EC0C /* Home.png in Resources */ = {isa = PBXBuildFile; fileRef = 88E571B61F3D2C4100D6EC0C /* Home.png */; };
+		88E571B91F3D2D6100D6EC0C /* VIsion.png in Resources */ = {isa = PBXBuildFile; fileRef = 88E571B81F3D2D5E00D6EC0C /* VIsion.png */; };
+		88E571BB1F3D2F6400D6EC0C /* Design.png in Resources */ = {isa = PBXBuildFile; fileRef = 88E571BA1F3D2F5600D6EC0C /* Design.png */; };
+		88E571BD1F3D315000D6EC0C /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E571BC1F3D315000D6EC0C /* IntroViewController.swift */; };
+		88F351F41F478547003E8712 /* Complete.png in Resources */ = {isa = PBXBuildFile; fileRef = 88F351F31F478335003E8712 /* Complete.png */; };
+		88FA6E871F6DC2B500ED1DF9 /* Simulator Screen Shot - iPhone X - 2017-09-16 at 16.13.17.png in Resources */ = {isa = PBXBuildFile; fileRef = 88FA6E861F6DC2A300ED1DF9 /* Simulator Screen Shot - iPhone X - 2017-09-16 at 16.13.17.png */; };
+		88FA6E891F6DC38000ED1DF9 /* yourList@3XiPhoneX.png in Resources */ = {isa = PBXBuildFile; fileRef = 88FA6E881F6DC37800ED1DF9 /* yourList@3XiPhoneX.png */; };
+		88FA6E8B1F6DC42A00ED1DF9 /* Home@3xiPhoneX.png in Resources */ = {isa = PBXBuildFile; fileRef = 88FA6E8A1F6DC42700ED1DF9 /* Home@3xiPhoneX.png */; };
+		88FA6E8E1F6DC6B100ED1DF9 /* Home@2xSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 88FA6E8C1F6DC6AE00ED1DF9 /* Home@2xSmall.png */; };
+		88FA6E8F1F6DC6B400ED1DF9 /* YourList@2xSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 88FA6E8D1F6DC6AF00ED1DF9 /* YourList@2xSmall.png */; };
+		88FA6ED01F6DCC2000ED1DF9 /* Camera@3xiPhoneX.png in Resources */ = {isa = PBXBuildFile; fileRef = 88FA6ECF1F6DCC0F00ED1DF9 /* Camera@3xiPhoneX.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8815035E1F365CB700029EFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8815033E1F365CB600029EFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 881503451F365CB700029EFD;
+			remoteInfo = VisionShop;
+		};
+		881503691F365CB700029EFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8815033E1F365CB600029EFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 881503451F365CB700029EFD;
+			remoteInfo = VisionShop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		88C3383B1F4523A000C9ACEB /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		880854551F36978C00AE3E1F /* mainHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainHome.swift; sourceTree = "<group>"; };
+		880854571F369DE500AE3E1F /* IMAC.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMAC.jpeg; sourceTree = "<group>"; };
+		880F7F191F3FDDD200CA5919 /* HomeSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HomeSelected.png; sourceTree = "<group>"; };
+		880F7F1A1F3FDDD300CA5919 /* ListSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ListSelected.png; sourceTree = "<group>"; };
+		880F7F1D1F3FE3FB00CA5919 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		8810EA4B1F48824D001E51B6 /* YourListNewSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YourListNewSelected.png; sourceTree = "<group>"; };
+		8810EA4C1F48824D001E51B6 /* HomeNew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HomeNew.png; sourceTree = "<group>"; };
+		8810EA4D1F48824D001E51B6 /* YourListNew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YourListNew.png; sourceTree = "<group>"; };
+		8810EA4E1F48824D001E51B6 /* HomeNewSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HomeNewSelected.png; sourceTree = "<group>"; };
+		881503461F365CB700029EFD /* IntelliShopList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntelliShopList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		881503491F365CB700029EFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8815034B1F365CB700029EFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8815034E1F365CB700029EFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		881503511F365CB700029EFD /* VisionShop.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VisionShop.xcdatamodel; sourceTree = "<group>"; };
+		881503531F365CB700029EFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		881503561F365CB700029EFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		881503581F365CB700029EFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8815035D1F365CB700029EFD /* IntelliShopListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntelliShopListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		881503611F365CB700029EFD /* VisionShopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionShopTests.swift; sourceTree = "<group>"; };
+		881503631F365CB700029EFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		881503681F365CB700029EFD /* IntelliShopListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntelliShopListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8815036C1F365CB700029EFD /* VisionShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionShopUITests.swift; sourceTree = "<group>"; };
+		8815036E1F365CB700029EFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8815037A1F365CD400029EFD /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
+		8831125E1F4D014F0035E73A /* DetailsViewControllerForSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewControllerForSearchViewController.swift; sourceTree = "<group>"; };
+		8832BA951F6F1599001D7920 /* Camera@3xiPhoneX copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Camera@3xiPhoneX copy.png"; sourceTree = "<group>"; };
+		886CB3A61F41F3EF00CA827F /* HomeScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HomeScreen.png; sourceTree = "<group>"; };
+		886CB3A81F41F60A00CA827F /* YourListScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YourListScreen.png; sourceTree = "<group>"; };
+		8878CFFC1F3C88F60036CB58 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		887F7F131F50EED100826C47 /* detailHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailHomeViewController.swift; sourceTree = "<group>"; };
+		887F7F151F51010700826C47 /* cameraLaunchView2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cameraLaunchView2x.png; sourceTree = "<group>"; };
+		8898CC021F4FABA900315306 /* IntelliShopBetterIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IntelliShopBetterIcon.png; path = Assets.xcassets/AppIcon.appiconset/IntelliShopBetterIcon.png; sourceTree = "<group>"; };
+		88A002121F42665A000C8D8E /* CameraLaunchScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CameraLaunchScreen.png; sourceTree = "<group>"; };
+		88B23BF41F48AA9D00452A20 /* YourListScreeniPhone3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YourListScreeniPhone3x.png; sourceTree = "<group>"; };
+		88B23BF51F48AA9D00452A20 /* homeiPhone3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homeiPhone3x.png; sourceTree = "<group>"; };
+		88B23BF61F48AA9E00452A20 /* HomeScreeniPhone2x4inch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HomeScreeniPhone2x4inch.png; sourceTree = "<group>"; };
+		88B23BF71F48AA9E00452A20 /* YourListScreeniPhone2x4inch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YourListScreeniPhone2x4inch.png; sourceTree = "<group>"; };
+		88CA521B1F52443C00FF68E5 /* SettingsIconBarButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SettingsIconBarButton.png; sourceTree = "<group>"; };
+		88CBCF951F3BCB37001A96BE /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		88CBCF971F3BD6C2001A96BE /* List.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = List.png; sourceTree = SOURCE_ROOT; };
+		88D49C321F3A866200448FD7 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		88D49C341F3A93D000448FD7 /* Add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Add.png; sourceTree = SOURCE_ROOT; };
+		88E571B61F3D2C4100D6EC0C /* Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home.png; sourceTree = "<group>"; };
+		88E571B81F3D2D5E00D6EC0C /* VIsion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VIsion.png; sourceTree = "<group>"; };
+		88E571BA1F3D2F5600D6EC0C /* Design.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Design.png; sourceTree = "<group>"; };
+		88E571BC1F3D315000D6EC0C /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		88F351F31F478335003E8712 /* Complete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Complete.png; sourceTree = "<group>"; };
+		88FA6E861F6DC2A300ED1DF9 /* Simulator Screen Shot - iPhone X - 2017-09-16 at 16.13.17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone X - 2017-09-16 at 16.13.17.png"; sourceTree = "<group>"; };
+		88FA6E881F6DC37800ED1DF9 /* yourList@3XiPhoneX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yourList@3XiPhoneX.png"; sourceTree = "<group>"; };
+		88FA6E8A1F6DC42700ED1DF9 /* Home@3xiPhoneX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home@3xiPhoneX.png"; sourceTree = "<group>"; };
+		88FA6E8C1F6DC6AE00ED1DF9 /* Home@2xSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home@2xSmall.png"; sourceTree = "<group>"; };
+		88FA6E8D1F6DC6AF00ED1DF9 /* YourList@2xSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "YourList@2xSmall.png"; sourceTree = "<group>"; };
+		88FA6ECF1F6DCC0F00ED1DF9 /* Camera@3xiPhoneX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Camera@3xiPhoneX.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		881503431F365CB700029EFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8815035A1F365CB700029EFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		881503651F365CB700029EFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8815033D1F365CB600029EFD = {
+			isa = PBXGroup;
+			children = (
+				881503481F365CB700029EFD /* VisionShop */,
+				881503601F365CB700029EFD /* VisionShopTests */,
+				8815036B1F365CB700029EFD /* VisionShopUITests */,
+				881503471F365CB700029EFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		881503471F365CB700029EFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				881503461F365CB700029EFD /* IntelliShopList.app */,
+				8815035D1F365CB700029EFD /* IntelliShopListTests.xctest */,
+				881503681F365CB700029EFD /* IntelliShopListUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		881503481F365CB700029EFD /* VisionShop */ = {
+			isa = PBXGroup;
+			children = (
+				881503491F365CB700029EFD /* AppDelegate.swift */,
+				8815034B1F365CB700029EFD /* ViewController.swift */,
+				880854551F36978C00AE3E1F /* mainHome.swift */,
+				88CBCF951F3BCB37001A96BE /* ListTableViewController.swift */,
+				880F7F1D1F3FE3FB00CA5919 /* SearchViewController.swift */,
+				88D49C321F3A866200448FD7 /* AddViewController.swift */,
+				8878CFFC1F3C88F60036CB58 /* DetailsViewController.swift */,
+				8831125E1F4D014F0035E73A /* DetailsViewControllerForSearchViewController.swift */,
+				88E571BC1F3D315000D6EC0C /* IntroViewController.swift */,
+				8815034D1F365CB700029EFD /* Main.storyboard */,
+				887F7F131F50EED100826C47 /* detailHomeViewController.swift */,
+				8810EA4C1F48824D001E51B6 /* HomeNew.png */,
+				8810EA4E1F48824D001E51B6 /* HomeNewSelected.png */,
+				8810EA4D1F48824D001E51B6 /* YourListNew.png */,
+				8810EA4B1F48824D001E51B6 /* YourListNewSelected.png */,
+				886CB3A61F41F3EF00CA827F /* HomeScreen.png */,
+				886CB3A81F41F60A00CA827F /* YourListScreen.png */,
+				8898CC021F4FABA900315306 /* IntelliShopBetterIcon.png */,
+				88FA6E8C1F6DC6AE00ED1DF9 /* Home@2xSmall.png */,
+				88FA6E8D1F6DC6AF00ED1DF9 /* YourList@2xSmall.png */,
+				88E571B81F3D2D5E00D6EC0C /* VIsion.png */,
+				88FA6ECF1F6DCC0F00ED1DF9 /* Camera@3xiPhoneX.png */,
+				881503531F365CB700029EFD /* Assets.xcassets */,
+				88B23BF51F48AA9D00452A20 /* homeiPhone3x.png */,
+				88B23BF61F48AA9E00452A20 /* HomeScreeniPhone2x4inch.png */,
+				8832BA951F6F1599001D7920 /* Camera@3xiPhoneX copy.png */,
+				88FA6E861F6DC2A300ED1DF9 /* Simulator Screen Shot - iPhone X - 2017-09-16 at 16.13.17.png */,
+				88FA6E8A1F6DC42700ED1DF9 /* Home@3xiPhoneX.png */,
+				88B23BF71F48AA9E00452A20 /* YourListScreeniPhone2x4inch.png */,
+				88FA6E881F6DC37800ED1DF9 /* yourList@3XiPhoneX.png */,
+				88B23BF41F48AA9D00452A20 /* YourListScreeniPhone3x.png */,
+				88CA521B1F52443C00FF68E5 /* SettingsIconBarButton.png */,
+				88E571B61F3D2C4100D6EC0C /* Home.png */,
+				880854571F369DE500AE3E1F /* IMAC.jpeg */,
+				88E571BA1F3D2F5600D6EC0C /* Design.png */,
+				88F351F31F478335003E8712 /* Complete.png */,
+				880F7F191F3FDDD200CA5919 /* HomeSelected.png */,
+				880F7F1A1F3FDDD300CA5919 /* ListSelected.png */,
+				88A002121F42665A000C8D8E /* CameraLaunchScreen.png */,
+				88CBCF971F3BD6C2001A96BE /* List.png */,
+				887F7F151F51010700826C47 /* cameraLaunchView2x.png */,
+				881503551F365CB700029EFD /* LaunchScreen.storyboard */,
+				8815037A1F365CD400029EFD /* Resnet50.mlmodel */,
+				88D49C341F3A93D000448FD7 /* Add.png */,
+				881503581F365CB700029EFD /* Info.plist */,
+				881503501F365CB700029EFD /* VisionShop.xcdatamodeld */,
+			);
+			path = VisionShop;
+			sourceTree = "<group>";
+		};
+		881503601F365CB700029EFD /* VisionShopTests */ = {
+			isa = PBXGroup;
+			children = (
+				881503611F365CB700029EFD /* VisionShopTests.swift */,
+				881503631F365CB700029EFD /* Info.plist */,
+			);
+			path = VisionShopTests;
+			sourceTree = "<group>";
+		};
+		8815036B1F365CB700029EFD /* VisionShopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8815036C1F365CB700029EFD /* VisionShopUITests.swift */,
+				8815036E1F365CB700029EFD /* Info.plist */,
+			);
+			path = VisionShopUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		881503451F365CB700029EFD /* IntelliShopList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 881503711F365CB700029EFD /* Build configuration list for PBXNativeTarget "IntelliShopList" */;
+			buildPhases = (
+				881503421F365CB700029EFD /* Sources */,
+				881503431F365CB700029EFD /* Frameworks */,
+				881503441F365CB700029EFD /* Resources */,
+				88C3383B1F4523A000C9ACEB /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IntelliShopList;
+			productName = VisionShop;
+			productReference = 881503461F365CB700029EFD /* IntelliShopList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8815035C1F365CB700029EFD /* IntelliShopListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 881503741F365CB700029EFD /* Build configuration list for PBXNativeTarget "IntelliShopListTests" */;
+			buildPhases = (
+				881503591F365CB700029EFD /* Sources */,
+				8815035A1F365CB700029EFD /* Frameworks */,
+				8815035B1F365CB700029EFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8815035F1F365CB700029EFD /* PBXTargetDependency */,
+			);
+			name = IntelliShopListTests;
+			productName = VisionShopTests;
+			productReference = 8815035D1F365CB700029EFD /* IntelliShopListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		881503671F365CB700029EFD /* IntelliShopListUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 881503771F365CB700029EFD /* Build configuration list for PBXNativeTarget "IntelliShopListUITests" */;
+			buildPhases = (
+				881503641F365CB700029EFD /* Sources */,
+				881503651F365CB700029EFD /* Frameworks */,
+				881503661F365CB700029EFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8815036A1F365CB700029EFD /* PBXTargetDependency */,
+			);
+			name = IntelliShopListUITests;
+			productName = VisionShopUITests;
+			productReference = 881503681F365CB700029EFD /* IntelliShopListUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8815033E1F365CB600029EFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "김준우";
+				TargetAttributes = {
+					881503451F365CB700029EFD = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					8815035C1F365CB700029EFD = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 881503451F365CB700029EFD;
+					};
+					881503671F365CB700029EFD = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 881503451F365CB700029EFD;
+					};
+				};
+			};
+			buildConfigurationList = 881503411F365CB600029EFD /* Build configuration list for PBXProject "IntelliShopList" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8815033D1F365CB600029EFD;
+			productRefGroup = 881503471F365CB700029EFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				881503451F365CB700029EFD /* IntelliShopList */,
+				8815035C1F365CB700029EFD /* IntelliShopListTests */,
+				881503671F365CB700029EFD /* IntelliShopListUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		881503441F365CB700029EFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88FA6E8F1F6DC6B400ED1DF9 /* YourList@2xSmall.png in Resources */,
+				88F351F41F478547003E8712 /* Complete.png in Resources */,
+				88B23BF91F48AAA400452A20 /* HomeScreeniPhone2x4inch.png in Resources */,
+				88FA6E891F6DC38000ED1DF9 /* yourList@3XiPhoneX.png in Resources */,
+				8810EA4F1F488252001E51B6 /* HomeNew.png in Resources */,
+				881503571F365CB700029EFD /* LaunchScreen.storyboard in Resources */,
+				88D49C351F3A940F00448FD7 /* Add.png in Resources */,
+				886CB3A91F41F60F00CA827F /* YourListScreen.png in Resources */,
+				8810EA501F488255001E51B6 /* HomeNewSelected.png in Resources */,
+				886CB3A71F41F44A00CA827F /* HomeScreen.png in Resources */,
+				88FA6E8E1F6DC6B100ED1DF9 /* Home@2xSmall.png in Resources */,
+				88B23BFA1F48AAA700452A20 /* YourListScreeniPhone2x4inch.png in Resources */,
+				88E571BB1F3D2F6400D6EC0C /* Design.png in Resources */,
+				881503541F365CB700029EFD /* Assets.xcassets in Resources */,
+				88CBCF981F3BD6C5001A96BE /* List.png in Resources */,
+				88B23BF81F48AAA100452A20 /* homeiPhone3x.png in Resources */,
+				88CA521C1F52444600FF68E5 /* SettingsIconBarButton.png in Resources */,
+				88FA6E871F6DC2B500ED1DF9 /* Simulator Screen Shot - iPhone X - 2017-09-16 at 16.13.17.png in Resources */,
+				880F7F1B1F3FDDD700CA5919 /* HomeSelected.png in Resources */,
+				8898CC031F4FABAE00315306 /* IntelliShopBetterIcon.png in Resources */,
+				8815034F1F365CB700029EFD /* Main.storyboard in Resources */,
+				8832BA961F6F15A1001D7920 /* Camera@3xiPhoneX copy.png in Resources */,
+				88B23BFB1F48AAAA00452A20 /* YourListScreeniPhone3x.png in Resources */,
+				88FA6ED01F6DCC2000ED1DF9 /* Camera@3xiPhoneX.png in Resources */,
+				88E571B91F3D2D6100D6EC0C /* VIsion.png in Resources */,
+				88FA6E8B1F6DC42A00ED1DF9 /* Home@3xiPhoneX.png in Resources */,
+				880854581F369E0000AE3E1F /* IMAC.jpeg in Resources */,
+				88E571B71F3D2C4500D6EC0C /* Home.png in Resources */,
+				8810EA521F48825B001E51B6 /* YourListNewSelected.png in Resources */,
+				8810EA511F488258001E51B6 /* YourListNew.png in Resources */,
+				880F7F1C1F3FDDDA00CA5919 /* ListSelected.png in Resources */,
+				887F7F161F5101BF00826C47 /* cameraLaunchView2x.png in Resources */,
+				88A002131F42672E000C8D8E /* CameraLaunchScreen.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8815035B1F365CB700029EFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		881503661F365CB700029EFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		881503421F365CB700029EFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				880F7F1E1F3FE3FB00CA5919 /* SearchViewController.swift in Sources */,
+				88E571BD1F3D315000D6EC0C /* IntroViewController.swift in Sources */,
+				8815034C1F365CB700029EFD /* ViewController.swift in Sources */,
+				881503521F365CB700029EFD /* VisionShop.xcdatamodeld in Sources */,
+				887F7F141F50EED100826C47 /* detailHomeViewController.swift in Sources */,
+				88D49C331F3A866200448FD7 /* AddViewController.swift in Sources */,
+				8878CFFD1F3C88F60036CB58 /* DetailsViewController.swift in Sources */,
+				8831125F1F4D014F0035E73A /* DetailsViewControllerForSearchViewController.swift in Sources */,
+				8815037B1F365CF400029EFD /* Resnet50.mlmodel in Sources */,
+				8815034A1F365CB700029EFD /* AppDelegate.swift in Sources */,
+				880854561F36978C00AE3E1F /* mainHome.swift in Sources */,
+				88CBCF961F3BCB37001A96BE /* ListTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		881503591F365CB700029EFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				881503621F365CB700029EFD /* VisionShopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		881503641F365CB700029EFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8815036D1F365CB700029EFD /* VisionShopUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8815035F1F365CB700029EFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 881503451F365CB700029EFD /* IntelliShopList */;
+			targetProxy = 8815035E1F365CB700029EFD /* PBXContainerItemProxy */;
+		};
+		8815036A1F365CB700029EFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 881503451F365CB700029EFD /* IntelliShopList */;
+			targetProxy = 881503691F365CB700029EFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8815034D1F365CB700029EFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8815034E1F365CB700029EFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		881503551F365CB700029EFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				881503561F365CB700029EFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8815036F1F365CB700029EFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		881503701F365CB700029EFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		881503721F365CB700029EFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5Y286T46P4;
+				INFOPLIST_FILE = VisionShop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Joonwoo.IntelliShopList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		881503731F365CB700029EFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5Y286T46P4;
+				INFOPLIST_FILE = VisionShop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Joonwoo.IntelliShopList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		881503751F365CB700029EFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5Y286T46P4;
+				INFOPLIST_FILE = VisionShopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Joonwoo.VisionShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IntelliShopList.app/IntelliShopList";
+			};
+			name = Debug;
+		};
+		881503761F365CB700029EFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5Y286T46P4;
+				INFOPLIST_FILE = VisionShopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Joonwoo.VisionShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IntelliShopList.app/IntelliShopList";
+			};
+			name = Release;
+		};
+		881503781F365CB700029EFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 5Y286T46P4;
+				INFOPLIST_FILE = VisionShopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Joonwoo.VisionShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VisionShop;
+			};
+			name = Debug;
+		};
+		881503791F365CB700029EFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 5Y286T46P4;
+				INFOPLIST_FILE = VisionShopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Joonwoo.VisionShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VisionShop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		881503411F365CB600029EFD /* Build configuration list for PBXProject "IntelliShopList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8815036F1F365CB700029EFD /* Debug */,
+				881503701F365CB700029EFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		881503711F365CB700029EFD /* Build configuration list for PBXNativeTarget "IntelliShopList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				881503721F365CB700029EFD /* Debug */,
+				881503731F365CB700029EFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		881503741F365CB700029EFD /* Build configuration list for PBXNativeTarget "IntelliShopListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				881503751F365CB700029EFD /* Debug */,
+				881503761F365CB700029EFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		881503771F365CB700029EFD /* Build configuration list for PBXNativeTarget "IntelliShopListUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				881503781F365CB700029EFD /* Debug */,
+				881503791F365CB700029EFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		881503501F365CB700029EFD /* VisionShop.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				881503511F365CB700029EFD /* VisionShop.xcdatamodel */,
+			);
+			currentVersion = 881503511F365CB700029EFD /* VisionShop.xcdatamodel */;
+			path = VisionShop.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8815033E1F365CB600029EFD /* Project object */;
+}
